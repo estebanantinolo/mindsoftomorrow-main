@@ -1,3 +1,4 @@
+/* Edicion del encabezado */
 .titulo {
     width: 100%;
     height: 100vh;
@@ -17,23 +18,34 @@
     background-position: center;
 }
 
+
+
+/* Añadir la tipografia */
 @font-face {
     font-family:Comfortaa;
     src: url(./../Fuente/Comfortaa/Comfortaa-VariableFont_wght.ttf);
 }
 
+
+
+/* Tipo de letra para todo el html */
 body {
     font-family: "Comfortaa";
-    justify-content: center;
 
 }
 
+
+
+/* Margenes de imagen y texto */
 .margen {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
 }
 
+
+
+/* Tamaño para las diferentes imagenes */
 .imagen1 {
     height: 80%;
     width: 80%;
@@ -49,6 +61,9 @@ body {
     width: 35%;
 }
 
+
+
+/* Mas tamaños y fondo de colores */
 #fondoverde {
     background-color: aqua;
     justify-content: center;
