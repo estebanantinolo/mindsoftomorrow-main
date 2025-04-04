@@ -1,0 +1,49 @@
+.titulo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tamano {
+    font-size: 600%;
+}
+
+#header {
+    background-image: url(./../Imagenes/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family:Comfortaa;
+    src: url(./../Fuente/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "Comfortaa";
+
+}
+
+.margen {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.imagen1 {
+    height: 80%;
+    width: 80%;
+}
+
+.imagen2 {
+    height: 230px;
+    width: 190px;
+
+}
+
+#fondoverde {
+    background-color: aqua;
+}
