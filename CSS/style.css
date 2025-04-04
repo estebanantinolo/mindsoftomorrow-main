@@ -24,6 +24,7 @@
 
 body {
     font-family: "Comfortaa";
+    justify-content: center;
 
 }
 
@@ -39,8 +40,8 @@ body {
 }
 
 .imagen2 {
-    height: 230px;
-    width: 190px;
+    height: 250px;
+    width: 210px;
 
 }
 
@@ -50,10 +51,15 @@ body {
 
 #fondoverde {
     background-color: aqua;
+    justify-content: center;
+    align-content: center;
 }
 
 #fondoazul {
     background-color: rgb(0, 140, 255);
+    height: 180px;
+    justify-content: center;
+    align-items: center;
 }
 
 #centrar2 {
@@ -66,4 +72,13 @@ body {
     background-color: rgb(0, 0, 0);
     color: white;
     align-content: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#imagen3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
